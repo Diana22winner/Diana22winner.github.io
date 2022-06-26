@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador Alura</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="ProyectoAlura.css"> 
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <h1 id="logito"><img id="Logo" src="Vector.png"></h1>
+
+        </header>
+
+        <main>
+
+            <!--<div id="bloquegrande">-->
+
+            <!--<div class="proyecto">   -->
+                <ul class="proyecto">
+                    <li id="primerbloque"><!--<div id="primerbloque"> -->
+                    
+                        <textarea id="mensaje" rows= "7" placeholder="Ingrese el texto aquí"></textarea>
+                        <p class="minuscula">&#9888 Solo letras minúsculas y sin acentos</p>                      
+                            <ul id="bloqueencriptador">
+                                <li><button id="encriptar">Encriptar</button></li>
+                                <li><button id="desencriptar">Desencriptar</button></li>
+                            </ul> 
+                    </div>
+                    </li>
+
+                    <li id="rectangulo"><!--<div id="rectangulo">-->
+                            <div class="colormovil">
+                                <div id="parteRectangulo" class="desaparecer">
+                                        <textarea id="contenidoencriptado" rows="13" readonly></textarea>-->
+                                        <!--<span id="contenidoencriptado"></span>-->
+                                        <button class="copiar">Copiar</button>
+                                        
+                                </div>
+                                <ul id="partesdelRect">
+                                    <li><img id="munequito" src="Muñeco.png"></li>
+                                    <li><p id="encontrar">Ningún mensaje fue <br> encontrado</p></li>
+                                    <li><p id="ingresar">Ingrese el texto que desee encriptar o <br> desencriptar</p></li>
+                                </ul>
+                        <!--- <textarea id="operacion" class="desaparecer" readonly></textarea> -->
+                        <!--<p id="centrobotoncopiar"><button id="copiar">Copiar</button></p>-->
+                    </div>
+                     
+                    </li>
+                </ul>
+        
+        </main>
+
+        <script src="encriptador.js"></script>
+        <script src="desencriptador.js"></script>
+        <script src="Copiar.js"></script>
+
+    </body>
+
+</html>
